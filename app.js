@@ -124,41 +124,40 @@ esle {
 // console,log(num
 
 
-// var name = prompt("what is you name?")
-// console.log(name)
+ var name = prompt("what is you name?")
+ console.log(name)
+ alert("wlecome to my website " + name + " :)" )
 
-// alert("wlecome to my website " + name + " :)" )
+ var favAnime = prompt("what is your fav Anime ?")
 
-// var favAnime = prompt("what is your fav Anime ?")
+ console.log(favAnime)
 
-// console.log(favAnime)
+ if (favAnime != null)
+ {document.write("<h4>" + favAnime + "</h4>")}
+ else if(favAnime == "Hunter X Hunter"){
+   alert("you entered Hunter X Hunter ")
+ }
+ else{
+   alert("you didn't input anything")
+ }
+  if (favAnime == "Hunter")
+  {
+    alert("hunter you entered")
+  }
+  else if (favAnime != null)
+  {
+  document.write("<h2>" + favAnime + "</h2>")
+  }
 
-// if (favAnime != null)
-// {document.write("<h4>" + favAnime + "</h4>")}
-// else if(favAnime == "Hunter X Hunter"){
-//   alert("you entered Hunter X Hunter ")
-// }
-// else{
-//   alert("you didn't input anything")
-// }
-//  if (favAnime == "Hunter")
-//  {
-//    alert("hunter you entered")
-//  }
-//  else if (favAnime != null)
-//  {
-  //  document.write("<h2>" + favAnime + "</h2>")
-//  }
-
-// else{
-//   alert("you didn't input anything")
-// }
-// if(1 > 12 ){
-//   console.log("yes it is")
-// }
-// else{
-//   console.log("no it is not ")
-// }
+ else{
+   alert("you didn't input anything")
+ }
+if(1 > 12 ){
+   console.log("yes it is")
+ }
+ else{
+   console.log("no it is not ")
+ }
 
 
 console.log(1 === "1")
