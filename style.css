@@ -1,0 +1,35 @@
+header{
+  height: 90px;
+}
+h1{
+  float: left;
+}
+nav{
+  float: right;
+}
+h1{
+  float: left;
+}
+nav{
+  float: right;
+}
+    p{
+      color:red;
+    }
+
+    #israa{
+      color: yellow
+    }
+
+    .colorGrey{
+      color: grey
+    }
+
+    header ul li{
+      display: inline-block;
+
+    }
+
+    a{
+      text-decoration: none
+    }
