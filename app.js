@@ -4,9 +4,10 @@
 
  var subject = prompt("what is your subject want? (math , physics)")
 
-while(subject != "null"){
+while(subject != "math" && subject != "physics"){
   subject = prompt("what is your subject want? (math , physics)")
 }
+
 
 
 if( subject == "math" ){
