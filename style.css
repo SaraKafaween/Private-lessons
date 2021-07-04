@@ -16,6 +16,7 @@ ul{
     p{
       color:rgb(0, 4, 255);
     }
+<<<<<<< HEAD
 
        
     a{
@@ -25,5 +26,15 @@ ul{
      a{
       color: grey
 
+=======
+
+       
+    a{
+      text-decoration: none
+      
+    }
+     a{
+      color: grey
+>>>>>>> d2a74bce32e8a148bd43f9a9622edc2ad707ae05
       
     }
