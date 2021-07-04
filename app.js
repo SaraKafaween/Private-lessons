@@ -4,11 +4,13 @@
 
  var subject = prompt("what is your subject want? (math , physics)")
 
-while(subject != "null"){
+while(subject != "math" && subject != "physics"){
   subject = prompt("what is your subject want? (math , physics)")
 }
 
 
+function subjectfun()
+{
 if( subject == "math" ){
 var times= prompt("how many time you wish to see it on my page ")
 while(times > 10){
@@ -39,3 +41,11 @@ else{
  else{
    alert("you didn't input anything")
  }
+}
+subjectfun() ;
+
+function() {
+  var stars = parseint(prompt('How stars rate the website from (1-5)'))
+  for(var i = 0 ; i < stars; i++) {
+document.write("<img src='https://th.bing.com/th/id/R.5e63b62fa994e50d5fab5b6774eebb1e?rik=k%2fGybOgkZ4SZdA&pid=ImgRaw' alt='stars'>")
+}
