@@ -4,15 +4,8 @@
 
  var subject = prompt("what is your subject want? (math , physics)")
 
-<<<<<<< HEAD
 while(subject != "null"){
   subject = prompt("what is your subject want? (math , physics)")
-  
-=======
-while(subject != "math" && subject != "physics"){
-  subject = prompt("what is your subject want? (math , physics)")
-  break
->>>>>>> d2a74bce32e8a148bd43f9a9622edc2ad707ae05
 }
 
 
